@@ -43,7 +43,6 @@
   font-size: 30px;
   line-height: 48px;
   letter-spacing: -0.01em;
-
   color: #ffffff;
 }
 .groupcard-body {
@@ -52,10 +51,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height, or 150% */
-
   letter-spacing: -0.01em;
-
   color: #ffffff;
 }
 #stat2 {
@@ -97,7 +93,6 @@
   margin: 3% 0%;
   margin-bottom: 5%;
 }
-.spangreen{
-    
+.spangreen {
   color: #3fd8bc;
 }

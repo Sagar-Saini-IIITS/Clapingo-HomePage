@@ -33,7 +33,7 @@ h3 {
   height: 100%;
 }
 .offerrect {
-    display: flex;
+  display: flex;
   flex-direction: column;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
@@ -54,10 +54,9 @@ h3 {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  width:80%;
-  margin:3% 10%;
+  width: 80%;
+  margin: 3% 10%;
   /* identical to box height, or 120% */
-  
 
   letter-spacing: -0.01em;
 
@@ -66,8 +65,8 @@ h3 {
   text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
 }
 .offer p {
-    width:80%;
-    margin:0% 10%;
+  width: 80%;
+  margin: 0% 10%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;

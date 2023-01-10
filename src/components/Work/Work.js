@@ -1,6 +1,7 @@
 import React from "react";
 import "./work.css";
 import img from "../images/workcard-t2.png";
+
 function Work() {
   return (
     <div className="work">
@@ -18,9 +19,9 @@ function Work() {
             </p>
           </div>
           <div className="workcard-t1">
-          <span>3. Select time slot</span>
+            <span>3. Select time slot</span>
             <p>
-            Subscribe & select any time slot between 10 AM to 12 midnight.
+              Subscribe & select any time slot between 10 AM to 12 midnight.
             </p>
           </div>
         </div>
@@ -29,15 +30,17 @@ function Work() {
         </div>
         <div className="workcard">
           <div className="workcard-t1">
-          <span>2. Subscribe</span>
+            <span>2. Subscribe</span>
             <p>
-            Choose your preferred duration and select subscription package for your sessions. 
+              Choose your preferred duration and select subscription package for
+              your sessions.
             </p>
           </div>
           <div className="workcard-t1">
-          <span>4. You are done</span>
+            <span>4. You are done</span>
             <p>
-            That’s it! Start practicing and reach your learning goal in speaking.
+              That’s it! Start practicing and reach your learning goal in
+              speaking.
             </p>
           </div>
         </div>

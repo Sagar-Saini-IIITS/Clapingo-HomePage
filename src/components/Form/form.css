@@ -1,36 +1,36 @@
-#form{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5% auto;
+#form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5% auto;
 }
-#login-form{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
+#login-form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
-.form-field{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
-letter-spacing: -0.01em;
-/* Primary */
+  letter-spacing: -0.01em;
+  /* Primary */
 
-color: #139980;
+  color: #139980;
 }
-label{
-    padding-left: 10px;
-    padding-bottom: 5px;
+label {
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
-input{
-    line-height: 30px;
-    border-radius: 10px;
-    padding-left: 10px;
-    margin-bottom: 5%;
+input {
+  line-height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 5%;
 }

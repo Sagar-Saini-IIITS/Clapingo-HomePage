@@ -1,20 +1,17 @@
-
-#home{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    
+#home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
-#home-msg{
-    font-family: Poppins;
-    font-size: 50px;
-    font-weight: bolder;
-    letter-spacing: -0.01em;
-    color: #11c29e;
-    margin: 30px;
+#home-msg {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: -0.01em;
+  color: #11c29e;
+  margin: 30px;
 }
-#home button{
-    margin:5% auto;
- 
+#home button {
+  margin: 5% auto;
 }
