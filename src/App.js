@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar.js'
+import Stat from './components/Stat/Stat';
+import Offer from './components/Offer/Offer';
+import Work from './components/Work/Work';
+import Home from './components/Home/Home.js'
 
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {(JSON.parse(localStorage.getItem("username")) && JSON.parse(localStorage.getItem("password"))) ? <Home success={true}/> : <>
+      <Navbar/>
+      <Hero/>
+      <Stat/>
+      <Offer/>
+      <Work/>
+      </> }
     </div>
   );
 }

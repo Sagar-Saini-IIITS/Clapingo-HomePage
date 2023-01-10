@@ -1,0 +1,72 @@
+.work h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+text-align: left;
+letter-spacing: -0.01em;
+margin: 4% 5%;
+}
+.work{
+    margin-top: 10%;
+
+}
+#workcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.wordcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.workcard-t1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 165px;
+    margin: 20px 20px;
+background: #FFFFFF;
+/* Shadow 2 */
+
+box-shadow: 26px 26px 23px rgba(204, 210, 212, 0.36);
+border-radius: 12px;
+margin-bottom: 60px;
+border: 2px solid rgba(204, 210, 212, 0.36);
+}
+.workcard-t2{
+width: 235px;
+height: 480px;
+border-radius: 18px;
+
+}
+.workcard-t1 span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    margin-left: 8%;
+    margin-top: 8%;
+text-align: left;
+    letter-spacing: -0.01em;
+    
+    color: #001F27;
+}
+.workcard-t1 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+width:80%;
+margin-left: 8%;
+letter-spacing: -0.01em;
+font-feature-settings: 'liga' off;
+text-align: left;
+color: #808F93;
+}

@@ -1,0 +1,114 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0% 8%;
+  margin-bottom: 10%;
+}
+.lefthero {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.lefthero h1{
+  font-family: Poppins Regular 400 Black 900;
+  font-size: 56px;
+  font-weight: bolder;
+  letter-spacing: -0.01em;
+  font-family: "Poppins";
+  letter-spacing: -0.01em;
+  color: #001f27;
+  line-height: 70px;
+}
+.lefthero span {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: bolder;
+  letter-spacing: -0.01em;
+  color: #11c29e;
+}
+.lefthero p {
+  font-family: "Poppins";
+  width: 90%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #001f27;
+  margin-top: -2%;
+  margin-bottom: 6%;
+}
+.herobuttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.booktrail {
+  box-sizing: border-box;
+  max-width: fit-content;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  border: 2px solid #ff736a;
+  border-radius: 80px;
+  background: #ff736a;
+  margin-right: 40px;
+}
+#bookbutton {
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+#downloadbutton {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  border: 2px solid #ff736a;
+  border-radius: 80px;
+}
+#downloadbutton button {
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ff736a;
+}
+.righthero {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+  margin-left: 2%;
+}
+.righthero div {
+  width: 80%;
+  height: 90%;
+  border: 2px solid #000000;
+  float: left;
+  align-items: flex-start;
+  border-radius: 30px;
+}
